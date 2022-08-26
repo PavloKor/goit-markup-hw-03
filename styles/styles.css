@@ -36,7 +36,11 @@
 }
 .conteiner {
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Header */
@@ -280,10 +284,14 @@
   flex-wrap: wrap;
 }
 .project-item {
+  width: 370px;
   border: 1px solid #eeeeee;
 }
 .project-img {
   margin-bottom: 20px;
+}
+.project-desc-group {
+  padding-left: 24px;
 }
 /* Підвал Footer */
 
