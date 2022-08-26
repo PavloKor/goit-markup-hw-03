@@ -48,9 +48,6 @@ ul {
 .conteiner {
   width: 1200px;
   margin: 0 auto;
-  margin-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* Header */
@@ -58,6 +55,11 @@ ul {
   background-color: var(--main-bcg-cl);
 }
 .header-conteiner {
+  border: 1px solid #ececec;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  padding: 24px;
   display: flex;
 }
 .logo {
@@ -122,6 +124,7 @@ ul {
   background-color: var(--accent-bcg-cl);
 }
 .slogan-conteiner {
+  margin-bottom: 94px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -188,9 +191,12 @@ ul {
 
 /* Особливлсті секція about */
 .about {
+  margin-bottom: 94px;
 }
 .hide {
-  visibility: hidden;
+  display: none;
+}
+.about-conteiner {
 }
 .about-list {
   display: flex;
@@ -236,7 +242,11 @@ ul {
 .team {
   background-color: #f5f4fa;
 }
+.team-conteiner {
+}
 .team-title {
+  padding-top: 94px;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -244,6 +254,7 @@ ul {
   letter-spacing: var(--main-letter-s);
 }
 .team-list {
+  padding-bottom: 94px;
   display: flex;
   gap: 30px;
 }
