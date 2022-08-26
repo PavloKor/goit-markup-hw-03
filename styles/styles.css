@@ -20,6 +20,7 @@
   --main-bcg-cl: #ffffff;
   --accent-bcg-cl: #2f303a;
   --btn-bcg-cl: #2196f3;
+  --btn-act-bcg-cl: #188ce8;
 
   /*others*/
 }
@@ -33,10 +34,16 @@
   background-color: var(--main-bcg-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.conteiner {
+  width: 1200px;
+}
 
 /* Header */
 .header {
   background-color: var(--main-bcg-cl);
+}
+.header-conteiner {
+  display: flex;
 }
 .logo {
   font-family: var(--logo-font);
@@ -54,6 +61,13 @@
   text-decoration: none;
   color: currentColor;
 }
+.active {
+  color: var(--btn-bcg-cl);
+}
+.list-nav {
+  display: flex;
+  gap: 50px;
+}
 .list-nav,
 .list-contact,
 .about-list,
@@ -62,6 +76,11 @@
 .address-list,
 .projects {
   list-style: none;
+}
+.list-contact {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
 }
 .link-nav:hover,
 .link-nav:focus,
@@ -110,6 +129,10 @@
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
+}
+.btn:focus,
+.btn:hover {
+  background-color: var(--btn-act-bcg-cl);
 }
 .filter-btn {
   font-family: inherit;
