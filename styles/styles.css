@@ -35,7 +35,9 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .conteiner {
+  position: ;
   width: 1200px;
+  margin-bottom: 94px;
 }
 
 /* Header */
@@ -194,13 +196,19 @@
 /* Чим ми займаємось Work */
 .work {
 }
+.work-conteiner {
+}
+
 .work-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   letter-spacing: var(--main-letter-s);
 }
 .work-list {
+  display: flex;
+  gap: 30px;
 }
 .work-img {
 }
@@ -216,6 +224,8 @@
   letter-spacing: var(--main-letter-s);
 }
 .team-list {
+  display: flex;
+  gap: 30px;
 }
 .team-item {
   background-color: var(--main-bcg-cl);
