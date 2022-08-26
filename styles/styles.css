@@ -280,7 +280,8 @@ ul {
 /* Головна секція у портфоліо */
 
 .filter-conteiner {
-  margin-bottom: 34px;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 .filter-list {
   display: flex;
@@ -288,6 +289,8 @@ ul {
   justify-content: center;
 }
 .filter-btn {
+  padding: 8px 25px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
