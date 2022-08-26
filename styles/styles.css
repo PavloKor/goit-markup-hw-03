@@ -172,10 +172,13 @@
   visibility: hidden;
 }
 .about-list {
+  display: flex;
+  gap: 30px;
 }
 .about-item {
 }
 .caption {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: var(--main-line-h);
