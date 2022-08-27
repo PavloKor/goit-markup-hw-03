@@ -34,6 +34,8 @@ h6,
 p,
 ul {
   margin: o;
+  padding: 0%;
+  list-style: none;
 }
 /* Body */
 .page {
@@ -61,6 +63,7 @@ ul {
   border-right: transparent;
   padding: 24px;
   display: flex;
+  margin-bottom: 93px;
 }
 .logo {
   font-family: var(--logo-font);
@@ -84,6 +87,9 @@ ul {
 .list-nav {
   display: flex;
   gap: 50px;
+}
+.nav {
+  margin-left: 93px;
 }
 .list-nav,
 .list-contact,
@@ -307,6 +313,7 @@ ul {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .project-item {
   width: 370px;
