@@ -33,7 +33,7 @@ h5,
 h6,
 p,
 ul {
-  margin: o;
+  margin: 0;
   padding: 0%;
   list-style: none;
 }
@@ -50,20 +50,19 @@ ul {
 .conteiner {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header */
 .header {
   background-color: var(--main-bcg-cl);
+  padding: 24px 0;
+  border-bottom: 1px solid #ececec;
 }
 .header-conteiner {
-  border: 1px solid #ececec;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
-  padding: 24px;
   display: flex;
-  margin-bottom: 93px;
+  align-items: center;
+  /*margin-bottom: 93px;*/
 }
 .logo {
   font-family: var(--logo-font);
@@ -128,15 +127,20 @@ ul {
 
 .section-slogan {
   background-color: var(--accent-bcg-cl);
+  padding: 200px 0;
+  text-align: center;
 }
 .slogan-conteiner {
+  /*
   margin-bottom: 94px;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 200px;
+  */
 }
 .slogan {
+  margin: 0 auto;
   width: 696px;
   margin-bottom: 30px;
   font-weight: 900;
@@ -197,7 +201,8 @@ ul {
 
 /* Особливлсті секція about */
 .about {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .hide {
   display: none;
@@ -209,6 +214,7 @@ ul {
   gap: 30px;
 }
 .about-item {
+  width: 270px;
 }
 .caption {
   margin-bottom: 10px;
@@ -226,6 +232,7 @@ ul {
 }
 /* Чим ми займаємось Work */
 .work {
+  padding-bottom: 94px;
 }
 .work-conteiner {
 }
@@ -246,12 +253,13 @@ ul {
 }
 /* наша команда Team */
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 .team-conteiner {
 }
 .team-title {
-  padding-top: 94px;
   padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -260,23 +268,26 @@ ul {
   letter-spacing: var(--main-letter-s);
 }
 .team-list {
-  padding-bottom: 94px;
   display: flex;
   gap: 30px;
 }
 .team-item {
+  width: 270px;
   background-color: var(--main-bcg-cl);
 }
 .team-img {
 }
+.team-desc {
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-name {
-  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
 }
 .team-position {
-  text-align: center;
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: var(--main-letter-s);
@@ -320,7 +331,6 @@ ul {
   border: 1px solid #eeeeee;
 }
 .project-img {
-  margin-bottom: 20px;
 }
 .project-desc-group {
   padding-left: 24px;
@@ -328,12 +338,13 @@ ul {
 /* Підвал Footer */
 
 .footer {
+  padding: 60px;
   background-color: var(--accent-bcg-cl);
 }
 .footer-conteiner {
-  padding: 60px;
 }
 .footer .logo {
+  display: block;
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -352,7 +363,7 @@ ul {
 .address-list {
 }
 .address-item {
-  margin-bottom: 9px;
+  /*margin-bottom: 9px;*/
 }
 .address-link {
   font-size: 14px;
